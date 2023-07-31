@@ -603,7 +603,7 @@ PlayerTab:AddButton({
 })
 
 PlayerTab:AddButton({
-	Name = "FootBall Fusion 2 Mags (PATCHED)",
+	Name = "FootBall Fusion 2 Mags",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/Scripts/main/Protected%20(4).lua", true))()	
   	end    
