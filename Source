@@ -10,6 +10,19 @@ local PlayerTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Executor = Window:MakeTab({
+	Name = "Executor",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Executor:AddTextbox({
+	Name = "Executor",
+	Default = "Paste Script Here",
+	TextDisappear = true,
+	Callback = function(Script)
+		loadstring(Script)()
+
 local CreditsTab = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
