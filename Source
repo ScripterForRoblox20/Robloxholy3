@@ -35,6 +35,8 @@ local Section = CreditsTab:AddSection({
 
 CreditsTab:AddLabel("Credits To Me: Unbeatable/xAvier2.0#0001 Made This Script")
 
+CreditsTab:AddLabel("Credits To My Friend Metamysteries8 He Taught Me How To Make This Executor, If you would like to check his hub out click the button down below! ")
+
 local Section = PlayerTab:AddSection({
 	Name = "Scripts"
 })
