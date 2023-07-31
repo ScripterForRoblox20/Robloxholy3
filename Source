@@ -36,7 +36,7 @@ PlayerTab:AddButton({
 PlayerTab:AddButton({
 	Name = "MetaScripter AKA MY FRIENDS'S HUB",
 	Callback = function()
-        
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaMysteries8/Metascripter-Roblox/main/source'))()
   	end    
 })
 
