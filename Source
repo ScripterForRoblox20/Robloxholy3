@@ -10,19 +10,6 @@ local PlayerTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Executor = Window:MakeTab({
-	Name = "Executor",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Executor:AddTextbox({
-	Name = "Executor",
-	Default = "Paste Script Here",
-	TextDisappear = true,
-	Callback = function(Script)
-		loadstring(Script)()
-
 local CreditsTab = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
@@ -35,8 +22,6 @@ local Section = CreditsTab:AddSection({
 
 CreditsTab:AddLabel("Credits To Me: Unbeatable/xAvier2.0#0001 Made This Script")
 
-CreditsTab:AddLabel("Credits To My Friend Metamysteries8 He Taught Me How To Make This Executor, If you would like to check his hub out click the button down below! ")
-
 local Section = PlayerTab:AddSection({
 	Name = "Scripts"
 })
@@ -44,7 +29,14 @@ local Section = PlayerTab:AddSection({
 PlayerTab:AddButton({
 	Name = "Infinite Yeild",
 	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaMysteries8/Metascripter-Roblox/main/source'))()
+  	end    
+})
+
+PlayerTab:AddButton({
+	Name = "MetaScripter AKA MY FRIENDS'S HUB",
+	Callback = function()
+        
   	end    
 })
 
